@@ -1,0 +1,38 @@
+html {cursor: url(../img/cursor.png), auto;overflow-y:hidden;}
+body {overflow-y:hidden; background-size: cover; 
+background: rgb(168,252,80);
+background: linear-gradient(180deg, rgba(168,252,80,1) 0%, rgba(117,243,255,1) 47%, rgba(187,85,255,1) 100%);} 
+.title{font-family: 'Nanum Myeongjo', serif; color: black; font-size: 1em; position: absolute; left: 640px;
+ top: 60px; z-index: 6; font-weight: 800;}
+.logo1 {width: 100%; position: absolute; top: 30px; left: 550px;z-index:3;}
+.logo2 {width: 100%; position: absolute; top: 250px; left: 550px;z-index:3;}
+.logo3 {width: 100%; position: absolute; top: 470px; left: 550px;z-index:5;}
+.logo1 img {width: 17%;}
+.logo2 img {width: 17%;}
+.logo3 img {width: 17%}
+.gun {position: absolute; top: 250px; left: 550px; z-index:4;}
+.gun img {width: 70%;}
+.object1 {position: absolute; top: 0px; left: 600px; z-index:2;}
+.object1 img {width: 60%;}
+.object2 {position: absolute; top: 300px; left: 700px; z-index:3;}
+.object2 img {width: 60%;}
+.object3 {position: absolute; top: 250px; left: 0px; z-index:3;}
+.object3 img {width: 40%;}
+.table img{width: 100%; }
+.table {position: fixed; top: 0%; left: 0%;}
+.jelly1 img{width: 30%}
+.jelly1 {position: absolute;top: 330px; left: 250px; z-index: 15;}
+.jelly2 img{width: 70%}
+.jelly2 {position: absolute;top: 260px; left: 1050px;z-index: 10;}
+.jelly3 img{width: 30%}
+.jelly3 {position: absolute;top: 200px; left: 150px;z-index: 10;}
+.jelly4 {position: absolute; z-index: 1; top: 100px;}
+.jelly4 img {width: 70%;}
+#rotating_img {
+    -webkit-animation: rotation 3s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
